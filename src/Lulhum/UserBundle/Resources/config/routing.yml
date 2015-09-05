@@ -1,0 +1,3 @@
+lulhum_user_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: LulhumUserBundle:Default:index }

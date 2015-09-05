@@ -20,6 +20,7 @@ class AppKernel extends Kernel
             new FOS\UserBundle\FOSUserBundle(),
             new Exercise\HTMLPurifierBundle\ExerciseHTMLPurifierBundle(),
             new Stfalcon\Bundle\TinymceBundle\StfalconTinymceBundle(),
+            new Lulhum\UserBundle\LulhumUserBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
