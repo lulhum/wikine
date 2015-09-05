@@ -1,0 +1,8 @@
+lulhum_twbs_wysiwyg:
+    resource: "@LulhumTwbsWysiwygBundle/Resources/config/routing.yml"
+    prefix:   /
+
+lulhum_wikine:
+    resource: "@LulhumWikineBundle/Resources/config/routing.yml"
+    prefix:   /
+

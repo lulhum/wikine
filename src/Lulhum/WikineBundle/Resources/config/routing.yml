@@ -1,0 +1,3 @@
+lulhum_wikine_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: LulhumWikineBundle:Default:index }
